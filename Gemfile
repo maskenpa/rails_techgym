@@ -37,6 +37,7 @@ gem 'bootstrap', '~> 4.4', '>= 4.4.1'
 gem 'font-awesome-sass', '~> 5.12'
 gem 'i18n_generators', '~> 2.2', '>= 2.2.2'
 gem 'enum_help', '~> 0.0.17'
+gem 'jquery-rails'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
