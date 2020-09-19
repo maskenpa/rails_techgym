@@ -5,7 +5,7 @@
 <div class="d-flex justify-content-center">
   <div class="col-7 mt-5">
     <!--from_withタグで生成されたフォームはデフォルトで非同期通信のXHR(Ajax)リクエストで送信される、リモートフォームを無効にしたい場合はlocal: true-->
-    <%= form_with(model: @contact, local: true) do |f| %>
+    <%= form_with(model: @contact, local: true, :url => {:new => :new}) do |f| %>
 
 
     <div class="form-group">
